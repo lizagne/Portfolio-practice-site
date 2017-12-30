@@ -1,8 +1,6 @@
 # Portfolio Bootstrap to Wordpress themed template for my site
 
-Creating a Bootstrap site for my portfolio site, for a practice with Bootstrap
+This is the static one page HTML and CSS Portfolio site, which will then be converted into a Wordpress theme, using Underscores.me theme skeleton.
 
-Building a custom Wordpress theme
-Starting from Underscores - a Starter Theme: http://underscores.me/
-
+Created a one page site, with information about my projects, and work history.
 
