@@ -25,3 +25,19 @@ $(function() {
 	});
 	
 });
+
+//cache nav ul parent and its height, nav items, all anchors with smooth scroll class, find all parts of page which will be targeted by scrollspy
+var navLinks = $('#nav-ul li a');
+var lastId, topMenu = $("#nav"),
+topMenuHeight = topMenu.outerHeight() + 150,
+menuItems = topMenu.find("#nav-ul li a"),
+scrollLinks = $('a.smooth-scroll'),
+scrollItems = menuItems.map(function() {
+    var item = $($(this).attr("href"));
+    if (item.length) {
+        return item;
+    }
+});
+var $email = $('.email');
+
+$email.hide();

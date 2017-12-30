@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<link rel="icon" href="img/favicon.ico">
+	<link rel="icon" href="assets/img/favicon.ico">
 	
 	<title>Liz Verde // Junior Developer</title>
 	
@@ -22,7 +22,8 @@
 	<link href="assets/css/custom.css" rel="stylesheet">
 	
 	<!-- Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Bree+Serif|Josefin+Sans|Lora" rel="stylesheet">
+
 	
 	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -56,10 +57,10 @@
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="/">Home</a></li>
-							<li><a href="blog.html">Portfolio</a></li>
-							<li><a href="resources.html">About</a></li>
-							<li><a href="contact.html">Skills</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -84,7 +85,7 @@
 			    		<h1>//Junior Web Developer</h1>
 			            <p class="lead">Since making the decision to study programming I have become addicted to learning the languages that make up digital experiences. I work very hard at improving my skills, through repeated practice and online courses.</p>
 
-			            <p><a class="btn btn-lg btn-danger" href="/" role="button">//See My Work &raquo;</a></p>
+			            <p><a class="btn btn-lg btn-danger" href="#projects" role="button">//See My Work &raquo;</a></p>
 		    		</div><!-- col -->
 		    		
     			</div><!-- row -->
@@ -96,12 +97,27 @@
 	================================================== -->
 	<section id="projects">
 		<div class="container">
-		
-			<h2>//Some of my projects</h2>
+			<a name="projects"></a>
+			<h2>//My Projects</h2>
 			<p class="lead">During our Coding Fellowship with DevelopMe_, we worked on various different projects with lots of different technologies. My favourite subjects have been React, React Native and Redux. I've been working hard at trying to fully understand these subjects, and although have struggled a lot, enjoy them hugely.</p> 
 			<p><strong>Take a look at some of my projects, here and on Github</strong></p>
 			
 			<div class="row">
+				<div class="col-sm-4">
+					<img src="assets/img/icon-design.png" alt="Design">
+					<h3>React Native</h3>
+					<p>Week 9 of the Coding Fellowship we got to make various different mobile apps. Take a look here</p>
+				</div><!-- col -->
+				<div class="col-sm-4">
+					<img src="assets/img/icon-code.png" alt="Code">
+					<h3>Quality HTML5 &amp; CSS3</h3>
+					<p>You'll learn how hand-craft a stunning website with valid, semantic and beautiful HTML5 &amp; CSS3.</p>
+				</div><!-- col -->
+				<div class="col-sm-4">
+					<img src="assets/img/icon-cms.png" alt="CMS">
+					<h3>Easy-to-use CMS</h3>
+					<p>Allow your clients to easily update their websites by converting your static websites to dynamic websites, using WordPress.</p>
+				</div><!-- col -->
 				<div class="col-sm-4">
 					<img src="assets/img/icon-design.png" alt="Design">
 					<h3>React Native</h3>
@@ -127,7 +143,7 @@
 	================================================== -->
 	<section id="skills">
 		<div class="container">
-		
+			<a name="skills"></a>
 			<div class="section-header">
 				<h2>//Skills and Courses</h2>
 			</div><!-- section-header -->
@@ -136,32 +152,32 @@
 				
 				<div class="col-sm-2">
 					<i class="fa fa-html5" ></i>
-					<h4>HTML 5, best practices</h4>
+					<p>HTML 5 // CSS // SASS</p>
 				</div><!-- end col -->
 				
 				<div class="col-sm-2">
 					<i class="fa fa-css3" aria-hidden="true"></i>
-					<h4>CSS // SASS</h4>
+					<p>JavaScript // jQuery // JSX </p>
 				</div><!-- end col -->
 				
 				<div class="col-sm-2">
 					<i class="ci ci-calendar"></i>
-					<h4>30-day money back guarantee</h4>
+					<p>React // React Native // Redux</p>
 				</div><!-- end col -->
 				
 				<div class="col-sm-2">
 					<i class="ci ci-community"></i>
-					<h4>Access to a community of like-minded students</h4>
+					<p>PHP // MySQL // Laravel</p>
 				</div><!-- end col -->
 				
 				<div class="col-sm-2">
 					<i class="ci ci-instructor"></i>
-					<h4>Direct access to the instructor</h4>
+					<p> Wordpress // Drupal</p>
 				</div><!-- end col -->
 				
 				<div class="col-sm-2">
 					<i class="ci ci-device"></i>
-					<h4>Accessible content on your mobile devices</h4>
+					<p>Git // Github // Command Line // Postman // Node // Yarn </p>
 				</div><!-- end col -->
 				
 			</div><!-- row -->
@@ -170,6 +186,7 @@
 
 	<!-- VIDEO FEATURETTE
 	================================================== -->
+	<a name="codepen"></a>
 	<section id="codepen">
 		<div class="container">
 			<div class="row">
@@ -186,7 +203,7 @@
 	<section id="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-8 col-md-6">
+				<div class="col-sm-8 col-md-6 col-lg-7">
 					<div class="row">
 						<div class="col-lg-8">
 							<h2>//About</h2>
@@ -200,13 +217,10 @@
 					
 					</div><!-- row -->
 					
-					<p class="lead">A highly skilled professional, Brad Hussey is a passionate and experienced web designer, developer, blogger and digital entrepreneur.<p>
+					<p class="lead">I am passionate about learning new technologies that further my understanding of all things web.<p>
 					
-					<p>Hailing from North Of The Wall (Yellowknife, Canada), Brad made the trek to the Wet Coast (Vancouver, Canada) to educate and equip himself with the necessary skills to become a spearhead in his trade of solving problems on the web, crafting design solutions, and speaking in code.</p>
+					<p>My background is in Graphic Design and Art, and having worked alongside Developers, I had long felt that it was something that was totally separate. Then this year I worked at Dyson on a temporary contract helping to put together their new website. There I worked alongside Developers who had previously been on a bootcamp. My role at Dyson was very limited, whereas the Developers had all the control and all the fun. I looked into the Coding Fellowship course here and since working through tasks on FreeCode Camp, Codecademy and Treehouse, I've been addicted to learning more and more. I've struggled with some subjects, but it challenges me further to put the hours in and with repeated practice, things have become to click.</p>
 					
-					<p>Hailing from North Of The Wall (Yellowknife, Canada), Brad made the trek to the Wet Coast (Vancouver, Canada) to educate and equip himself with the necessary skills to become a spearhead in his trade of solving problems on the web, crafting design solutions, and speaking in code.</p>
-
-					<p>Hailing from North Of The Wall (Yellowknife, Canada), Brad made the trek to the Wet Coast (Vancouver, Canada) to educate and equip himself with the necessary skills to become a spearhead in his trade of solving problems on the web, crafting design solutions, and speaking in code.</p>
 					<hr>
 
 				</div><!-- end col -->
@@ -218,13 +232,14 @@
 	
 	<!-- CONTACT SECTION 
 	================================================== -->
+	<a name="contact"></a>
 	<section id="contact" data-type="background" data-speed="4">
 		<div class="container">
 		    <div class="row" id="primary">
 			    <div id="content" class="col-sm-12">    
 				    <section class="main-content">
 				    	<h2>//Contact</h2>
-				    	<p class="lead">Get in contact here</p>
+				    	<p class="lead">07813 791 655  •  ljverde@gmail.com</p>
 				    	
 				    	<form role="form" class="clearfix">
 		    				<div class="row">
@@ -249,7 +264,7 @@
 		    						</div>
 		    					</div><!-- end col -->
 		    				</div><!-- row -->
-							<input type="submit" class="btn btn-info btn-lg pull-right" value="Get in touch &raquo;">
+							<input type="submit" class="btn btn-info btn-lg pull-right" value="//Get in touch &raquo;">
 				        </form>
 				    	
 				    </section>
@@ -266,15 +281,15 @@
 	<footer>
 		<div class="container">
 			<div class="col-sm-3">
-				<p><a href="/"><img src="assets/img/logo.png" alt="Bootstrap to WordPress"></a></p>
+				<p><a href="/"><img src="assets/img/logo.png" alt="Liz Verde, Junior Web Developer"></a></p>
 			</div><!-- end col -->
 			<div class="col-sm-6">
 				<nav>
 					<ul class="list-unstyled list-inline">
 						<li><a href="">Home</a></li>
-						<li><a href="">Portfolio</a></li>
-						<li><a href="">About</a></li>
+						<li><a href="">Projects</a></li>
 						<li><a href="">Skills</a></li>
+						<li><a href="">About</a></li>
 						<li><a href="">Contact</a></li>
 					</ul>
 				</nav>
