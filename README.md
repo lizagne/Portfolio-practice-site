@@ -11,6 +11,3 @@ Created a one page site, with information about my projects, and work history.
 ![Demo](https://user-images.githubusercontent.com/26763021/34588895-59613ee8-f1a7-11e7-92fa-1b4574dccb66.png)
 
 ![Demo](https://user-images.githubusercontent.com/26763021/34588894-5949239e-f1a7-11e7-8e39-e4f44bd01e2d.png)
-
-![Demo](https://user-images.githubusercontent.com/26763021/34588893-592d3cce-f1a7-11e7-8707-58c8dbb958a0.png)
-
